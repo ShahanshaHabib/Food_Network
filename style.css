@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Bona Nova', serif;
+    color:#5c5c5c
+}
+/* .container{
+    
+} */
+
+span{
+    color:orange
+}
+
+.head-section{
+    display: flex;
+    margin-top : 100px;
+    padding: 0 12%;
+   
+}
+
+.head-text h1{
+    font-size: 3rem;
+}
+.head-text p{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.head-img img{
+    width: 550px;
+    height: 550px;
+}
+
+.btn{
+   text-decoration: none;
+   color:#ffffff;
+   border: none;
+   display: inline-block;
+   background-image:linear-gradient(orange,tomato);
+   padding: 10px 15px;
+   border-radius: 3rem;
+   font-weight: 800;
+
+}
+
+.about-section{
+    background-image: url("Images/7.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    display: flex;
+    padding: 0 12%;
+    position: relative;
+}
+
+.about-img img{
+    width: 500px;
+    height: 470px;
+    margin-bottom: -62px;
+}
+
+.about-text{
+    padding: 100px 50px;
+} 
+.about-text h2{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.about-text p {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.recepie-des{
+    text-align: center;
+    margin: 50px 0px;
+    padding: 0 12%;
+}
+.recepie-des h2{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.recepie-des p {
+    font-size: 20px;
+    margin-bottom: 15px;
+    padding: 0px 120px;
+}
+
+
+.recepie-list{
+    display: flex;
+    justify-content: center;
+    /* margin-left: 50px; */
+}
+.recepie-list img{
+    width: 300px;
+}
+
+.item1, .item2, .item3{
+    box-shadow: 2px 2px 5px #868686;
+    width: 300px;
+    border-radius: 15px;
+
+}
+.item1, .item2{
+    margin-right: 50px;
+}
+.item-text{
+    padding: 25px;
+}
+
+ .item1 h2, .item2 h2,  .item3 h2{
+   padding-bottom: 10px;
+
+}
+.social-media-count{
+    display: flex;
+    justify-content: center;
+    /* align-content: center; */
+    margin: 50px auto;
+    width: 1000px;
+    box-shadow: 2px 2px 5px #868686;
+    border-radius: 10px;
+}
+.youtube, .instragram, .facebook{
+    padding: 25px;
+    text-align: center;
+}
+footer{
+    background-color: black;
+    color: #c7c3c3;
+    text-align: center;
+    height: 100px;
+    padding-top: 25px;
+}
+
+footer h3{
+    padding-bottom: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
