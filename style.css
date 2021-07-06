@@ -27,7 +27,7 @@ span{
     font-size: 3rem;
 }
 .head-text p{
-    font-size: 25px;
+    /* font-size: 16px; */
     margin-bottom: 20px;
 }
 .head-img img{
@@ -71,7 +71,7 @@ span{
     margin-bottom: 10px;
 }
 .about-text p {
-    font-size: 20px;
+    /* font-size: 20px; */
     margin-bottom: 15px;
 }
 
@@ -85,7 +85,7 @@ span{
     margin-bottom: 10px;
 }
 .recepie-des p {
-    font-size: 20px;
+    /* font-size: 20px; */
     margin-bottom: 15px;
     padding: 0px 120px;
 }
